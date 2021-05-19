@@ -1,0 +1,186 @@
+/* TOOLS
+   ========================================================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    margin: 0 1em;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* UTILITIES
+   ========================================================================== */
+
+h1, h2, h3,
+header,
+.citation {
+    font-family: "Courgette", sans-serif;
+}
+
+h1, h2, h3,
+.citation,
+.copyright {
+    text-align: center;
+}
+
+h1, h3,
+strong, em,
+.citation,
+.sceau {
+    color: #023885;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #4f89b9;
+    font-size: 3.5rem;
+}
+
+h3,
+.citation {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER
+   ========================================================================== */
+
+.seal,
+.nyc {
+    text-align: center;
+}
+
+/* NAV
+   ========================================================================== */
+
+nav ul, a {
+    list-style-type: none;
+    color: #003884;
+    font-weight: bold;
+}
+
+/* MAIN
+   ========================================================================== */
+
+.citation {
+    background-color: #d7e1ef;
+}
+
+blockquote {
+    margin: 0.5em;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+article {
+    text-align: justify;
+}
+
+/* -- IMAGES -- */
+
+main img {
+    width: 10em;
+    padding-top: 0.4em;
+}
+
+.flag,
+.brooklyn {
+    float: right;
+    margin-left: 1em;
+}
+
+.brooklyn {
+    margin-bottom: 1em;
+}
+
+.statue,
+.taxi {
+    float: left;
+    margin-right: 1em;
+}
+
+/* FOOTER
+   ========================================================================== */
+
+.copyright {
+    font-size: 1.4rem;
+    line-height: 2.5;
+}
+
+.copyright p:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.copyright p:nth-child(2) {
+    margin: 0 auto;
+}
+
+.copyright img {
+    width: 3.75em;
+}
+
+.copyright a {
+    color: #000;
+    font-weight: 400;
+}
+
+.license {
+    color: #444;
+}
+
+/* MEDIA QUERIES
+   ========================================================================== */
+
+@media screen and (min-width: 576px) {
+    /* -- MAIN -- */
+
+    /* IMAGES */
+
+    main img {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* -- MAIN -- */
+    
+    blockquote {
+        margin: 0.5em auto;
+    }
+}
